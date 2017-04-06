@@ -31,6 +31,11 @@ module.exports = [
   key("scrl",  16.5, 0, "scroll"),
   key("pause", 17.5, 0, "pause"),
 
+  key("stop", 19, 0, "stop", 1, 0.7),
+  key("prev", 20, 0, "prev", 1, 0.7),
+  key("play", 21, 0, "play", 1, 0.7),
+  key("next", 22, 0, "next", 1, 0.7),
+
   key("~",    0,  1.2, "grave"),
   key("1",    1,  1.2, "1"),
   key("2",    2,  1.2, "2"),

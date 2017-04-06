@@ -25,6 +25,8 @@ Firefox configuration. There's a small issue with firefox and websockets on book
 
 Additionally, you can make playRGBFile and the recorder executable using `chmod +x ./playRGBFile.js recorder.js`. Allowing you to omit `node` on the command line. `playRGBFile.js "example animations/forest.rgb"
 
+6. If you have the external command, xprintidle installed, the backlit of keyboard will be automatically turned off after inactive 60 seconds of X. Calling xprintidle achieves power-saving feature.
+
 # 2. creating animations
 
 Visit shadertoy, and pick out a few of your favorite shaders. Then run `node recorder.js <animation file name>`. Click on the bookmarklet, and hover over the shader canvas. You can stop recording by pressing ctrl-c.
